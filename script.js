@@ -43,7 +43,7 @@ contactForm.addEventListener('submit', async function(e) {
 
     try {
         // Send form data to the backend
-        const response = await fetch('https://portfolio-harshit-2.onrender.com//api/contact', {
+        const response = await fetch('https://portfolio-harshit-3.onrender.com/api/contact', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',
