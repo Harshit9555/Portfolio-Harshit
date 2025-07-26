@@ -29,10 +29,10 @@ app.post('/api/contact', async (req, res) => {
 
   // SQL query to insert the data into the 'messages' table
   const insertQuery = `
-    INSERT INTO messages(name, email, location, budget, subject, message)
-    VALUES($1, $2, $3, $4, $5, $6)
-    RETURNING id;
-  `;
+  INSERT INTO messages(name, email, location, budget, subject, message)
+  VALUES($1, $2, $3, $4, $5, $6)
+  RETURNING id;
+`;
   const values = [name, email, location, budget, subject, message];
 
   try {

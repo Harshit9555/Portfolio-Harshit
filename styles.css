@@ -153,6 +153,7 @@ body {
     border-radius: 5px;
     font-weight: 500;
     cursor: pointer;
+    text-decoration: none;
 }
 
 .primary-btn {
